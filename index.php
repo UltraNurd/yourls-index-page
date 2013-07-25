@@ -11,26 +11,23 @@ if ($db) {
     $urls = $db->get_results("SELECT `keyword`,`url`,`title`,`timestamp`,`clicks` FROM `" . YOURLS_DB_TABLE_URL . "` ORDER BY `timestamp` DESC");
 }
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-    <title>girv.in - john girvin's short'n'urlies</title>
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/index/index.css">
-    <link rel="stylesheet" type="text/css" href="/index/tablesorter/style.css">
-    <meta name="robots" content="index,follow">
+    <title>ultranurd.net - Nicolas Ward's Shortened URLs</title>
+    <link rel="stylesheet" type="text/css" href="index/index.css">
+    <link rel="stylesheet" type="text/css" href="index/tablesorter/style.css">
 </head>
 <body>
 
-<h1>girv.in</h1>
-<h2>john girvin's short'n'urlies</h2>
+<h1>ultranurd.net</h1>
+<h2>Nicolas Ward's Shortened URLs</h2>
 
 <div id="header">
 	<ul class="subnav">
-		<li><a rel="me" href="http://www.johngirvin.com">johngirvin.com</a></li>
-		<li><a rel="me" href="http://www.rainmiles.com">rain miles count double</a></li>
-		<li><a rel="me" href="http://www.weedoorsbanging.com">wee doors banging</a></li>
-		<li><a rel="me" href="http://www.girv.net">girv.net</a></li>
+		<li><a rel="me" href="http://www.ultranurd.net/">Home</a></li>
+		<li><a rel="me" href="http://blog.ultranurd.net/">Blog</a></li>
+		<li><a rel="me" href="http://twitter.com/ultranurd">Twitter</a></li>
 	</ul>
 </div>
 
@@ -93,9 +90,9 @@ if ($db) {
 <?php endif ?>
 
 <div id="footer">
-	girv.in is built with <a target="_blank" href="http://yourls.org">YOURLS</a>, <a target="_blank" href="http://jquery.com">jQuery</a> and <a target="_blank" href="http://tablesorter.com">Tablesorter</a>
+	ultranurd.net/s is built with <a target="_blank" href="http://yourls.org">YOURLS</a>, <a target="_blank" href="http://jquery.com">jQuery</a> and <a target="_blank" href="http://tablesorter.com">Tablesorter</a>
 	<br>
-	&copy; copyright 2009-<?= date('Y') ?> <a target="_blank" rel="me" href="http://www.johngirvin.com">john girvin</a>
+	&copy; copyright 2013-<?= date('Y') ?> <a target="_blank" rel="me" href="http://www.ultranurd.net">Nicolas Ward</a>
 </div>
 
 <script type="text/javascript" src="/js/jquery-1.4.3.min.js"></script>
