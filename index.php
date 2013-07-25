@@ -95,8 +95,8 @@ if ($db) {
 	&copy; copyright 2013-<?= date('Y') ?> <a target="_blank" rel="me" href="http://www.ultranurd.net">Nicolas Ward</a>
 </div>
 
-<script type="text/javascript" src="/js/jquery-1.4.3.min.js"></script>
-<script type="text/javascript" src="/js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
 <script type="text/javascript">
 <!--
 $(document).ready(function(){ 
